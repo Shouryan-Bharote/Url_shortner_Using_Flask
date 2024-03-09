@@ -1,0 +1,184 @@
+
+html {
+	font-size:62.5%;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144rem;
+  /* box-sizing: border-box; */
+  padding-top: 7.5rem;
+  width: 100%;
+
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #adbc9f;
+}
+  .g-one {
+  margin: 0rem 2.1rem 6.3rem 7.3rem;
+  width: calc(100% - 9.4rem);
+  height: 13.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.do-you-have-a-prob-con {
+  margin-right: 4.3rem;
+  box-sizing: border-box;
+  padding: 2.5rem 1.3rem 3.2rem 1.7rem;
+  width: 39.8rem;
+  height: 100%;
+  background-color: #113629;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+.do-you-have-a-prob-con p {
+  max-width: 36.8rem;
+  font-size: 3.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #fbfada;
+  font-family: Inter, 'Source Sans Pro';
+}
+.main-url {
+  margin-bottom: 1.9rem;
+  /* width: 90.5rem;
+  height: 6.4rem; */
+  width: 60%;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+  .g-two {
+  margin: 0rem 4rem 2rem 9.8rem;
+  width: calc(100% - 13.8rem);
+  height: 13.3rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+  .g-two img {
+  margin: 0rem 26.3rem 0.1rem 0rem;
+  width: 64.1rem;
+  height: 6.8rem;
+  object-fit: cover;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+  .g-two .here-is-a-sim-con {
+  box-sizing: border-box;
+  padding: 2.4rem 1.5rem 3.3rem 2.3rem;
+  width: 39.8rem;
+  height: 100%;
+  background-color: #113629;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+  .g-two .here-is-a-sim-con p {
+  max-width: 36rem;
+  font-size: 3.1rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #fbfada;
+  font-family: Inter, 'Source Sans Pro';
+}
+  .presenting-con {
+  margin: 0rem 4.018rem 2rem 7.3rem;
+  box-sizing: border-box;
+  padding: 2.2rem 6.379rem 2.3rem 6.379rem;
+  width: calc(100% - 11.3184rem);
+  background-color: #113629;
+  border-radius: 2rem;
+  flex-shrink: 0;
+}
+  .presenting-con p {
+  max-width: 42.8rem;
+  font-size: 3.6rem;
+  font-weight: 400;
+  line-height: 1.2125;
+  color: #fbfada;
+  font-family: Inter, 'Source Sans Pro';
+  white-space: pre;
+}
+  .Buttom-area {
+  margin-right: 0.2628rem;
+  box-sizing: border-box;
+  padding: 3.4rem 45.845rem 5.624rem 45.6rem;
+  /* width: 143.7372rem; */
+  width: 100vw;
+  /* height: 44.9958rem; */
+  height: calc(100vh - 50px);
+  background-color: #446a52;
+  flex-shrink: 0;
+  display: flex; /* Use flexbox */
+  justify-content: center; /* Center the items horizontally */
+  align-items: center; /* Center the items vertically */
+  flex-direction: column; /* Stack the items vertically */
+}
+.Buttom-area .input-form {
+  /* Remove fixed padding and width */
+  padding: 7.2rem 0;
+  /* Set width to 90% */
+  width: 90%;
+  /* Center the items horizontally and vertically */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* Add background color and border radius */
+  background-color: #113629;
+  border-radius: 2rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input-container label {
+  margin-right: 2rem;
+  font-size: 1.6rem;
+  color: #FBFADA;
+}
+
+.input-container input[type="text"],
+.input-container input[readonly] {
+  width: calc(100% - 2.5rem);
+  flex: 1;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1.6rem;
+  /* margin-bottom: 1rem; */
+  margin-right: 0.5rem;
+}
+
+.input-container input[readonly] {
+  background-color: #ddd;
+  color: #666;
+  cursor: not-allowed;
+}
+
+.input-container button {
+  border: none;
+  background-color: #f4f4f4;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.input-container button img {
+  width: 20px;
+  height: auto;
+}
